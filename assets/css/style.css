@@ -1,0 +1,60 @@
+body {
+    margin: 10px 30px;
+    margin-left: 60px;
+}
+
+p {
+    padding-left: 2px;
+    font-size: 20px;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+header #left-header p {
+    line-height: 7px;
+}
+
+header {
+    display: flex;
+    height: 130px;
+}
+
+header #left-header {
+    width: 80%;
+}
+
+header #right-header {
+    width: 20%;
+    display: flex;
+    margin-right: 45px;
+    justify-content: end;
+}
+
+header #right-header img {
+    height: 50%;
+    margin-top: 17px;
+}
+
+#home-content {
+    height: 70vh;
+    display: flex;
+}
+
+.gallery-content {
+    height: 100%;
+    padding-right: 50px;
+    padding-top: 40px;
+}
+
+.gallery-content img {
+    height: 40%;
+    width: 100%;
+    object-fit: cover;
+}
